@@ -27,6 +27,8 @@ sulphates = st.number_input("sulphates")
 alcohol = st.number_input("alcohol")
 quality = st.number_input("quality")
 
+
+import pandas as pd
 input_data = pd.DataFrame([[
     fixed_acidity,
     volatile_acidity,
